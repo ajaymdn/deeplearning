@@ -1,0 +1,1 @@
+This is the fully-supervised learning aspect of coursework to act as a baseline against the other models
