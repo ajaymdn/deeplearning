@@ -40,7 +40,7 @@ device = torch.device('cpu')
 model.to(device)
 
 # Loss and optimizer
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss(ignore_index=1)
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Training loop with tqdm
